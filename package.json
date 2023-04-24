@@ -1,10 +1,13 @@
 {
+  "homepage":"http://SuleimanZeila.github.io/jna",
   "name": "expressmongodb",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "author": "j_b",
   "license": "ISC",
@@ -16,5 +19,8 @@
     "mongoose": "^7.0.3",
     "nodemon": "^2.0.22",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
