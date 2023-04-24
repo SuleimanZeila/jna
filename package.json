@@ -7,7 +7,7 @@
   "scripts": {
     "start": "nodemon app.js",
     "predeploy":"npm run start",
-    "deploy":"gh-pages -d start"
+    "deploy":"gh-pages -d build"
   },
   "author": "j_b",
   "license": "ISC",
