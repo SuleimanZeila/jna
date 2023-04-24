@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><br>
+    <h1>Register</h1>
+    <form action="/newuser" method="post">
+        <input type="text" name="fullname" placeholder="NAME"><br>
+        <input type="text" name="email" placeholder="EMAIL"><br>
+        <input type="text" name="phone" placeholder="phone"><br>
+        <input type="text" name="username" placeholder="username"><br>
+        <input type="password" name="password" placeholder="password"><br>
+        <input type="submit" value="Submit">
+    </form>
+
+<br><br><br>
+<h1>Login</h1>
+    <form action="/login" method="post">
+        <input type="text" name="username" placeholder="username"><br>
+        <input type="password" name="password" placeholder="password"><br>
+        <input type="submit" value="Submit">
+    </form>
+<br><br><br>
+<h1>upload</h1>
+<form action="/upload" enctype="multipart/form-data" method="post">
+<input type="file" name="image"><br>
+<input type="submit" value="Submit"></form>
+</body>
+</html>
