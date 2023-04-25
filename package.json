@@ -1,13 +1,14 @@
 {
-  "homepage":"http://SuleimanZeila.github.io/jna",
+  
   "name": "expressmongodb",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "engines": {
+    "node":"14.x"
+  },
   "scripts": {
-    "start": "nodemon app.js",
-    "predeploy":"npm run start",
-    "deploy":"gh-pages -d build"
+    "start": "nodemon app.js"
   },
   "author": "j_b",
   "license": "ISC",
